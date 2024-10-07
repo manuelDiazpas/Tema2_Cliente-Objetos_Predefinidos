@@ -47,7 +47,8 @@ function boton4() {
 }
 
 function boton1_1() {
-  opener.segundaVentana.alert("La ventana 1 te saluda");
+  opener.segundaVentana.document.body.innerHTML +=
+    "<p>La ventana 1 te saluda</p>";
 }
 
 function boton1_2() {
@@ -55,7 +56,8 @@ function boton1_2() {
 }
 
 function boton2_1() {
-  opener.primeraVentana.alert("La ventana 2 te saluda");
+  opener.primeraVentana.document.body.innerHTML +=
+    "<p>La ventana 2 te saluda</p>";
 }
 
 function boton2_2() {
